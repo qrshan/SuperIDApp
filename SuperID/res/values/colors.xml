@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="sliding_menu_list_divider">#ff000000</color>
+    <color name="slidingmenu_footer_background_light">#fff2f2f5</color>
+    <color name="slidingmenu_footer_background_dark">#ff1d1d1d</color>
+    <color name="sidebar_text_light">#ff000000</color>
+    <color name="sidebar_text_dark">#ffffffff</color>
+    <color name="sidebar_item_background_light">#ffffffff</color>
+    <color name="sidebar_item_background_dark">#ff272627</color>
+    <color name="sidebar_item_background_activated_light">#ffeae0f2</color>
+    <color name="sidebar_item_background_activated_dark">#ff4c365d</color>
+
+</resources>
