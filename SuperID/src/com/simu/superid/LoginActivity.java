@@ -1,16 +1,24 @@
 package com.simu.superid;
 
 import android.app.Activity;
+import android.graphics.Paint;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.TextView;
 
 public class LoginActivity extends Activity {
+	TextView forgetPasswordBtn;
+	TextView registerBtn;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_login);
+		forgetPasswordBtn = (TextView) findViewById(R.id.forget_password);
+		registerBtn = (TextView) findViewById(R.id.register);
+		forgetPasswordBtn.getPaint().setFlags(Paint.UNDERLINE_TEXT_FLAG);
+		registerBtn.getPaint().setFlags(Paint.UNDERLINE_TEXT_FLAG);
 	}
 
 	@Override
