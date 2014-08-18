@@ -1,6 +1,6 @@
 # cache for current jar dependency. DO NOT EDIT.
 # format is <lastModified> <length> <SHA-1> <path>
 # Encoding is UTF-8
-1375060146000 271754 53307dc2bd2b69fd5533458ee11885f55807de4b /Users/apple/Documents/workspaces/android/ActionBarSherlock-master/actionbarsherlock/libs/android-support-v4.jar
-1375060146000 271754 53307dc2bd2b69fd5533458ee11885f55807de4b /Users/apple/Documents/workspaces/android/SuperID/libs/android-support-v4.jar
-1375060146000 271754 53307dc2bd2b69fd5533458ee11885f55807de4b /Users/apple/Documents/workspaces/android/SlidingMenu-master/library/libs/android-support-v4.jar
+1375060146000 271754 53307dc2bd2b69fd5533458ee11885f55807de4b /Users/apple/GitHub/SuperIDApp/library/libs/android-support-v4.jar
+1375060146000 271754 53307dc2bd2b69fd5533458ee11885f55807de4b /Users/apple/GitHub/SuperIDApp/actionbarsherlock/libs/android-support-v4.jar
+1375060146000 271754 53307dc2bd2b69fd5533458ee11885f55807de4b /Users/apple/GitHub/SuperIDApp/SuperID/libs/android-support-v4.jar

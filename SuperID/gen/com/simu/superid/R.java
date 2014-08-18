@@ -799,19 +799,32 @@ containing a value of this type.
         public static final int abs__bright_foreground_disabled_holo_light=0x7f060005;
         public static final int abs__bright_foreground_holo_dark=0x7f060002;
         public static final int abs__bright_foreground_holo_light=0x7f060003;
-        public static final int abs__primary_text_disable_only_holo_dark=0x7f06000f;
-        public static final int abs__primary_text_disable_only_holo_light=0x7f060010;
-        public static final int abs__primary_text_holo_dark=0x7f060011;
-        public static final int abs__primary_text_holo_light=0x7f060012;
-        public static final int sidebar_item_background_activated_dark=0x7f06000e;
-        public static final int sidebar_item_background_activated_light=0x7f06000d;
-        public static final int sidebar_item_background_dark=0x7f06000c;
-        public static final int sidebar_item_background_light=0x7f06000b;
-        public static final int sidebar_text_dark=0x7f06000a;
-        public static final int sidebar_text_light=0x7f060009;
-        public static final int sliding_menu_list_divider=0x7f060006;
-        public static final int slidingmenu_footer_background_dark=0x7f060008;
-        public static final int slidingmenu_footer_background_light=0x7f060007;
+        public static final int abs__primary_text_disable_only_holo_dark=0x7f06001b;
+        public static final int abs__primary_text_disable_only_holo_light=0x7f06001c;
+        public static final int abs__primary_text_holo_dark=0x7f06001d;
+        public static final int abs__primary_text_holo_light=0x7f06001e;
+        public static final int blue_text=0x7f06001a;
+        public static final int dark_grey=0x7f060019;
+        public static final int dark_grey_text=0x7f060011;
+        public static final int grey_text=0x7f060012;
+        public static final int light_grey=0x7f060018;
+        public static final int light_grey_text=0x7f060010;
+        public static final int selector_text=0x7f06001f;
+        public static final int settings_header_bg=0x7f060017;
+        public static final int sidebar_item_background_activated_dark=0x7f06000f;
+        public static final int sidebar_item_background_activated_light=0x7f06000e;
+        public static final int sidebar_item_background_dark=0x7f06000d;
+        public static final int sidebar_item_background_light=0x7f06000c;
+        public static final int sidebar_text_dark=0x7f06000b;
+        public static final int sidebar_text_light=0x7f06000a;
+        public static final int sliding_menu_list_divider=0x7f060007;
+        public static final int slidingmenu_footer_background_dark=0x7f060009;
+        public static final int slidingmenu_footer_background_light=0x7f060008;
+        public static final int text_light=0x7f060015;
+        public static final int text_negative=0x7f060016;
+        public static final int text_normal=0x7f060014;
+        public static final int white=0x7f060006;
+        public static final int white_text=0x7f060013;
     }
     public static final class dimen {
         /**  Default height of an action bar. 
@@ -1035,24 +1048,43 @@ containing a value of this type.
         public static final int abs__toast_frame=0x7f02006f;
         public static final int actionbar_bg=0x7f020070;
         public static final int bg1280_720=0x7f020071;
-        public static final int ic_launcher=0x7f020072;
-        public static final int icon_inform=0x7f020073;
-        public static final int icon_my=0x7f020074;
-        public static final int icon_schedule=0x7f020075;
-        public static final int icon_service=0x7f020076;
-        public static final int logo=0x7f020077;
-        public static final int logo64=0x7f020078;
-        public static final int option=0x7f020079;
-        public static final int option_pressed=0x7f02007a;
-        public static final int return_to_main=0x7f02007b;
-        public static final int sidebar_item_background_dark_selector=0x7f02007c;
-        public static final int sidebar_item_selected_layerlist_dark=0x7f02007d;
-        public static final int sidebar_row_dark=0x7f02007e;
-        public static final int slidingmenu_bg=0x7f02007f;
-        public static final int slidingmenu_item_bg=0x7f020080;
-        public static final int slidingmenu_item_normal=0x7f020081;
-        public static final int slidingmenu_item_pressed=0x7f020082;
-        public static final int slidingmenu_shadow=0x7f020083;
+        public static final int bg_grey_box_w_thin_bottom_border=0x7f020072;
+        public static final int bg_white_box_w_thin_bottom_border=0x7f020073;
+        public static final int btn_login_bg=0x7f020074;
+        public static final int btn_login_normal=0x7f020075;
+        public static final int btn_login_pressed=0x7f020076;
+        public static final int btn_lvclickable=0x7f020077;
+        public static final int header_container=0x7f020078;
+        public static final int ic_launcher=0x7f020079;
+        public static final int ic_settings=0x7f02007a;
+        public static final int ic_settings_white=0x7f02007b;
+        public static final int icon_inform=0x7f02007c;
+        public static final int icon_my=0x7f02007d;
+        public static final int icon_schedule=0x7f02007e;
+        public static final int icon_service=0x7f02007f;
+        public static final int input=0x7f020080;
+        public static final int input_field=0x7f020081;
+        public static final int input_field1=0x7f020082;
+        public static final int logo=0x7f020083;
+        public static final int logo64=0x7f020084;
+        public static final int option=0x7f020085;
+        public static final int option_pressed=0x7f020086;
+        public static final int portrait=0x7f020087;
+        public static final int portrait_rec=0x7f020088;
+        public static final int return_to_main=0x7f020089;
+        public static final int sidebar_item_background_dark_selector=0x7f02008a;
+        public static final int sidebar_item_selected_layerlist_dark=0x7f02008b;
+        public static final int sidebar_row_dark=0x7f02008c;
+        public static final int slidingmenu_bg=0x7f02008d;
+        public static final int slidingmenu_item_bg=0x7f02008e;
+        public static final int slidingmenu_item_normal=0x7f02008f;
+        public static final int slidingmenu_item_pressed=0x7f020090;
+        public static final int slidingmenu_shadow=0x7f020091;
+        public static final int toggle_off=0x7f020092;
+        public static final int toggle_off_pressed=0x7f020093;
+        public static final int toggle_on=0x7f020094;
+        public static final int toggle_on_pressed=0x7f020095;
+        public static final int toggle_switch=0x7f020096;
     }
     public static final class id {
         public static final int abs__action_bar=0x7f040026;
@@ -1094,26 +1126,36 @@ containing a value of this type.
         public static final int abs__textButton=0x7f040019;
         public static final int abs__title=0x7f040021;
         public static final int abs__up=0x7f04000b;
-        public static final int action_help=0x7f04003c;
-        public static final int action_search=0x7f04003a;
-        public static final int action_settings=0x7f04003b;
+        public static final int action_help=0x7f040046;
+        public static final int action_search=0x7f040045;
+        public static final int action_settings=0x7f040044;
+        public static final int btn_login=0x7f04003b;
         public static final int disableHome=0x7f040009;
+        public static final int edit_password=0x7f04003a;
         public static final int edit_query=0x7f04002c;
+        public static final int edit_username=0x7f040039;
+        public static final int forget_password=0x7f04003c;
         public static final int fullscreen=0x7f040013;
         public static final int homeAsUp=0x7f040006;
         public static final int left=0x7f040010;
         public static final int listMode=0x7f040002;
+        public static final int login_portrait=0x7f040038;
         public static final int margin=0x7f040012;
-        public static final int menu_frame=0x7f040038;
+        public static final int menu_frame=0x7f040042;
         public static final int none=0x7f040014;
         public static final int normal=0x7f040001;
+        public static final int register=0x7f04003d;
         public static final int right=0x7f040011;
         public static final int selected_view=0x7f040015;
+        public static final int settings_wrapper=0x7f04003e;
         public static final int showCustom=0x7f040008;
         public static final int showHome=0x7f040005;
         public static final int showTitle=0x7f040007;
-        public static final int slidingmenumain=0x7f040039;
+        public static final int slidingmenumain=0x7f040043;
         public static final int tabMode=0x7f040003;
+        public static final int toggle_keep_logged_in=0x7f040041;
+        public static final int txt_keep_logged_in=0x7f040040;
+        public static final int txt_login=0x7f04003f;
         public static final int useLogo=0x7f040004;
         public static final int wrap_content=0x7f040000;
     }
@@ -1142,18 +1184,22 @@ containing a value of this type.
         public static final int abs__search_dropdown_item_icons_2line=0x7f030012;
         public static final int abs__search_view=0x7f030013;
         public static final int abs__simple_dropdown_hint=0x7f030014;
-        public static final int activity_main=0x7f030015;
-        public static final int activity_search=0x7f030016;
-        public static final int behind_slidingmenu=0x7f030017;
-        public static final int menu_frame=0x7f030018;
-        public static final int menu_row_item=0x7f030019;
-        public static final int sherlock_spinner_dropdown_item=0x7f03001a;
-        public static final int sherlock_spinner_item=0x7f03001b;
-        public static final int slidingmenumain=0x7f03001c;
+        public static final int activity_login=0x7f030015;
+        public static final int activity_main=0x7f030016;
+        public static final int activity_search=0x7f030017;
+        public static final int activity_settings=0x7f030018;
+        public static final int behind_slidingmenu=0x7f030019;
+        public static final int menu_frame=0x7f03001a;
+        public static final int menu_row_item=0x7f03001b;
+        public static final int sherlock_spinner_dropdown_item=0x7f03001c;
+        public static final int sherlock_spinner_item=0x7f03001d;
+        public static final int slidingmenumain=0x7f03001e;
     }
     public static final class menu {
-        public static final int main=0x7f0b0000;
-        public static final int search=0x7f0b0001;
+        public static final int login=0x7f0b0000;
+        public static final int main=0x7f0b0001;
+        public static final int search=0x7f0b0002;
+        public static final int settings=0x7f0b0003;
     }
     public static final class string {
         /**  Content description for the action bar "home" affordance. [CHAR LIMIT=NONE] 
@@ -1199,8 +1245,17 @@ containing a value of this type.
         public static final int action_search=0x7f09000f;
         public static final int action_settings=0x7f090010;
         public static final int app_name=0x7f09000d;
+        public static final int forget_password=0x7f09001a;
         public static final int hello_world=0x7f09000e;
+        public static final int login=0x7f090015;
+        public static final int login_password_hint=0x7f090019;
+        public static final int login_username_hint=0x7f090018;
+        public static final int register=0x7f09001b;
+        public static final int settings_header_login=0x7f090014;
+        public static final int settings_keep_logged_in=0x7f090016;
+        public static final int title_activity_login=0x7f090017;
         public static final int title_activity_search=0x7f090012;
+        public static final int title_activity_settings=0x7f090013;
     }
     public static final class style {
         /** 
@@ -1229,10 +1284,16 @@ containing a value of this type.
  All customizations that are NOT specific to a particular API-level can go here. 
          */
         public static final int AppTheme=0x7f0a005a;
-        public static final int MainActivityStyle=0x7f0a005d;
-        public static final int MenuDrawer=0x7f0a005f;
-        public static final int MenuDrawer_Widget=0x7f0a0060;
-        public static final int MenuDrawer_Widget_Title=0x7f0a0061;
+        public static final int BtnTextView=0x7f0a0069;
+        public static final int DropShadow=0x7f0a0064;
+        public static final int LVClickable=0x7f0a0066;
+        public static final int LVHeader=0x7f0a0065;
+        public static final int LVStub=0x7f0a0067;
+        public static final int MainActivityStyle=0x7f0a005e;
+        public static final int MenuDrawer=0x7f0a0060;
+        public static final int MenuDrawer_Widget=0x7f0a0061;
+        public static final int MenuDrawer_Widget_Title=0x7f0a0062;
+        public static final int SettingsActivityStyle=0x7f0a005c;
         public static final int Sherlock___TextAppearance_Small=0x7f0a0046;
         public static final int Sherlock___Theme=0x7f0a0051;
         public static final int Sherlock___Theme_DarkActionBar=0x7f0a0053;
@@ -1245,6 +1306,8 @@ containing a value of this type.
         public static final int Sherlock___Widget_Holo_Spinner=0x7f0a0023;
         public static final int Sherlock___Widget_SearchAutoCompleteTextView=0x7f0a0033;
         public static final int SimuActivityStyle=0x7f0a005b;
+        public static final int SuperIDEditText=0x7f0a0068;
+        public static final int Text=0x7f0a0063;
         public static final int TextAppearance_Sherlock=0x7f0a004a;
         public static final int TextAppearance_Sherlock_Light_SearchResult=0x7f0a004e;
         public static final int TextAppearance_Sherlock_Light_SearchResult_Subtitle=0x7f0a0050;
@@ -1323,8 +1386,8 @@ containing a value of this type.
         public static final int Widget_Sherlock_SearchAutoCompleteTextView=0x7f0a0034;
         public static final int Widget_Sherlock_Spinner_DropDown_ActionBar=0x7f0a0024;
         public static final int Widget_Sherlock_TextView_SpinnerItem=0x7f0a0032;
-        public static final int Widget_Styled_ActionBar=0x7f0a005c;
-        public static final int Widget_Styled_ActionBar_Main=0x7f0a005e;
+        public static final int Widget_Styled_ActionBar=0x7f0a005d;
+        public static final int Widget_Styled_ActionBar_Main=0x7f0a005f;
     }
     public static final class styleable {
         /**  Attributes used to style the Action Bar. 

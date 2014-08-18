@@ -41,16 +41,16 @@ public class MainActivity extends SlidingFragmentActivity {
 	private void initSlidingMenu() {
 		DisplayMetrics dm = new DisplayMetrics();
 		getWindowManager().getDefaultDisplay().getMetrics(dm);
-		int mScreenWidth = dm.widthPixels;// 获取屏幕分辨率宽度
+		int mScreenWidth = dm.widthPixels;
 		// customize the SlidingMenu
 		mSlidingMenu = getSlidingMenu();
-		mSlidingMenu.setShadowWidth(mScreenWidth / 40);// 设置阴影宽度
-		mSlidingMenu.setBehindOffset(mScreenWidth / 4);// 设置菜单宽度
-		mSlidingMenu.setFadeDegree(0.35f);// 设置淡入淡出的比例
+		mSlidingMenu.setShadowWidth(mScreenWidth / 40);
+		mSlidingMenu.setBehindOffset(mScreenWidth / 4);
+		mSlidingMenu.setFadeDegree(0.35f);
 		mSlidingMenu.setTouchModeAbove(SlidingMenu.TOUCHMODE_MARGIN);
-		mSlidingMenu.setShadowDrawable(R.drawable.slidingmenu_shadow);// 设置左菜单阴影图片
-		mSlidingMenu.setFadeEnabled(true);// 设置滑动时菜单的是否淡入淡出
-		mSlidingMenu.setBehindScrollScale(0.333f);// 设置滑动时拖拽效果
+		mSlidingMenu.setShadowDrawable(R.drawable.slidingmenu_shadow);
+		mSlidingMenu.setFadeEnabled(true);
+		mSlidingMenu.setBehindScrollScale(0.333f);
 		
 		setSlidingActionBarEnabled(false);
 		
@@ -66,6 +66,11 @@ public class MainActivity extends SlidingFragmentActivity {
 			Intent intent = new Intent();
 			intent.setClass(MainActivity.this, SearchActivity.class);
 			startActivity(intent);
+			return true;
+		case R.id.action_settings:
+			Intent intent_settings = new Intent();
+			intent_settings.setClass(MainActivity.this, SettingsActivity.class);
+			startActivity(intent_settings);
 			return true;
 		}
 		return super.onOptionsItemSelected(item);

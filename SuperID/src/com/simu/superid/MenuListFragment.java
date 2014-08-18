@@ -25,10 +25,10 @@ public class MenuListFragment extends ListFragment {
 		super.onActivityCreated(savedInstanceState);
 
 		List<Item> items = new ArrayList<Item>();
-		items.add(new Item("我的超级账户", R.drawable.icon_my));
-		items.add(new Item("通知", R.drawable.icon_inform));
-		items.add(new Item("日程管理", R.drawable.icon_schedule));
-		items.add(new Item("相关服务", R.drawable.icon_service));
+		items.add(new Item("鎴戠殑瓒呯骇璐︽埛", R.drawable.icon_my));
+		items.add(new Item("閫氱煡", R.drawable.icon_inform));
+		items.add(new Item("鏃ョ▼绠＄悊", R.drawable.icon_schedule));
+		items.add(new Item("鐩稿叧鏈嶅姟", R.drawable.icon_service));
 		mMenuAdapter = new MenuAdapter(this.getActivity(), items);
 		setListAdapter(mMenuAdapter);
 	}

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <color name="white">#ffffff</color>
     <color name="sliding_menu_list_divider">#ff000000</color>
     <color name="slidingmenu_footer_background_light">#fff2f2f5</color>
     <color name="slidingmenu_footer_background_dark">#ff1d1d1d</color>
@@ -10,5 +11,16 @@
     <color name="sidebar_item_background_dark">#ff272627</color>
     <color name="sidebar_item_background_activated_light">#ffeae0f2</color>
     <color name="sidebar_item_background_activated_dark">#ff4c365d</color>
+    <color name="light_grey_text">#ffd3d1d1</color>
+    <color name="dark_grey_text">#ff565656</color>
+    <color name="grey_text">#ffaaaaaa</color>
+    <color name="white_text">#ffffffff</color>
+    <color name="text_normal">#ff565656</color>
+    <color name="text_light">#ff919191</color>
+    <color name="text_negative">#ffeaeaea</color>
+    <color name="settings_header_bg">#242424</color>
+    <color name="light_grey">#ffeaeaea</color>
+    <color name="dark_grey">#ffb6b6b6</color>
+    <color name="blue_text">#ff0086db</color>
 
 </resources>
