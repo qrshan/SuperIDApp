@@ -16,5 +16,10 @@
     <string name="login_password_hint">密码</string>
     <string name="forget_password">忘记密码？</string>
     <string name="register">加入我们</string>
+    <string name="title_activity_register">注册</string>
+    <string name="title_activity_forget_pwd">忘记密码</string>
+    <string name="ad_line1">精彩生活</string>
+    <string name="ad_line2">由我定义</string>
+    <string name="ad_enter">随地随地，每时每刻，尽享尊贵服务</string>
 
 </resources>

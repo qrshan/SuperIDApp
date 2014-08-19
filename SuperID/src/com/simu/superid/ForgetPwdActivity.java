@@ -1,38 +1,22 @@
 package com.simu.superid;
 
 import android.app.Activity;
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
-import android.view.View.OnClickListener;
-import android.widget.TextView;
 
-public class SettingsActivity extends Activity {
+public class ForgetPwdActivity extends Activity {
 
-	TextView txtLogin;
-	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_settings);
-		txtLogin = (TextView)findViewById(R.id.txt_login);
-		txtLogin.setOnClickListener(new OnClickListener() {
-			
-			@Override
-			public void onClick(View arg0) {
-				Intent intent = new Intent();
-				intent.setClass(SettingsActivity.this, LoginActivity.class);
-				startActivity(intent);
-			}
-		});
+		setContentView(R.layout.activity_forget_pwd);
 	}
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.settings, menu);
+		getMenuInflater().inflate(R.menu.forget_pwd, menu);
 		return true;
 	}
 
@@ -42,11 +26,9 @@ public class SettingsActivity extends Activity {
 		// automatically handle clicks on the Home/Up button, so long
 		// as you specify a parent activity in AndroidManifest.xml.
 		int id = item.getItemId();
-		if (id == android.R.id.home) {
-			this.finish();
+		if (id == R.id.action_settings) {
 			return true;
 		}
-		
 		return super.onOptionsItemSelected(item);
 	}
 }

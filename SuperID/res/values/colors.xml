@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <color name="transparent">#00ffffff</color>
     <color name="white">#ffffff</color>
     <color name="sliding_menu_list_divider">#ff000000</color>
     <color name="slidingmenu_footer_background_light">#fff2f2f5</color>

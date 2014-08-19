@@ -1,10 +1,14 @@
 package com.simu.superid;
 
+import android.R.anim;
 import android.app.Activity;
+import android.content.Intent;
 import android.graphics.Paint;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.view.View.OnClickListener;
 import android.widget.TextView;
 
 public class LoginActivity extends Activity {
@@ -19,6 +23,24 @@ public class LoginActivity extends Activity {
 		registerBtn = (TextView) findViewById(R.id.register);
 		forgetPasswordBtn.getPaint().setFlags(Paint.UNDERLINE_TEXT_FLAG);
 		registerBtn.getPaint().setFlags(Paint.UNDERLINE_TEXT_FLAG);
+		forgetPasswordBtn.setOnClickListener(new OnClickListener() {
+
+			@Override
+			public void onClick(View arg0) {
+				Intent intent = new Intent();
+				intent.setClass(LoginActivity.this, ForgetPwdActivity.class);
+				startActivity(intent);
+			}
+		});
+		registerBtn.setOnClickListener(new OnClickListener() {
+
+			@Override
+			public void onClick(View arg0) {
+				Intent intent = new Intent();
+				intent.setClass(LoginActivity.this, RegisterActivity.class);
+				startActivity(intent);
+			}
+		});
 	}
 
 	@Override
@@ -34,7 +56,8 @@ public class LoginActivity extends Activity {
 		// automatically handle clicks on the Home/Up button, so long
 		// as you specify a parent activity in AndroidManifest.xml.
 		int id = item.getItemId();
-		if (id == R.id.action_settings) {
+		if (id == android.R.id.home) {
+			this.finish();
 			return true;
 		}
 		return super.onOptionsItemSelected(item);
