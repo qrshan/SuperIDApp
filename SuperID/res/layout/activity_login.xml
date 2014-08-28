@@ -9,7 +9,7 @@
         android:layout_height="wrap_content"
         android:orientation="vertical" >
 
-        <com.simu.superid.util.RoundImageView
+        <com.simu.superid.wiget.RoundImageView
             android:id="@+id/login_portrait"
             android:layout_width="80dip"
             android:layout_height="80dip"

@@ -1,0 +1,67 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/schedule_sv"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.simu.superid.ScheduleActivity" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <com.squareup.timessquare.CalendarView
+            android:id="@+id/calendar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent" >
+
+            <TextView
+                android:id="@+id/schedule_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:gravity="center_vertical"
+                android:paddingTop="6dip"
+                android:paddingLeft="10dip"
+                android:textColor="@color/calendar_text_active"
+                android:textStyle="bold"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/schedule_edit"
+                android:layout_width="38dip"
+                android:layout_height="36dip"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dip"
+                android:src="@drawable/schedule_edit"
+                android:scaleType="fitXY" />
+
+            <ImageView
+                android:id="@+id/schedule_add"
+                android:layout_width="38dip"
+                android:layout_height="36dip"
+                android:layout_marginRight="10dip"
+                android:layout_toLeftOf="@id/schedule_edit"
+                android:src="@drawable/schedule_add"
+                android:scaleType="fitXY" />
+        </RelativeLayout>
+        
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1.0dip"
+            android:background="@color/dark_grey_text" />
+        
+        <com.simu.superid.wiget.ListViewForScrollView
+            android:id="@+id/schedule_list"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,193 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.simu.superid.CreateScheduleActivity" >
+
+    <!--
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+        <ImageView
+            android:id="@+id/create_sche_date_pick"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/date_picker"
+            android:scaleType="fitXY" />
+        <EditText
+            android:id="@+id/create_sche_date_edit"
+            android:layout_width="match_parent"
+            android:layout_toLeftOf="@id/create_sche_date_pick"
+            android:layout_height="40dip" />
+    </RelativeLayout>
+    -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin" >
+
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dip"
+            android:layout_weight="0.9"
+            android:background="@drawable/date_pick_left"
+            android:gravity="center_horizontal"
+            android:text="@string/date"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_medium"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/create_sche_date_edit"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1.5dip"
+            android:layout_weight="2"
+            android:background="@drawable/date_pick_bg"
+            android:gravity="center_horizontal"
+            android:textColor="@color/blue_text"
+            android:textSize="@dimen/text_medium"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin" >
+
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dip"
+            android:layout_weight="0.9"
+            android:background="@drawable/date_pick_left"
+            android:gravity="center_horizontal"
+            android:text="@string/time"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_medium"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/create_sche_time_edit"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1.5dip"
+            android:layout_weight="2"
+            android:background="@drawable/date_pick_bg"
+            android:gravity="center_horizontal"
+            android:textColor="@color/blue_text"
+            android:textSize="@dimen/text_medium"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin" >
+
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dip"
+            android:layout_weight="0.9"
+            android:background="@drawable/date_pick_left"
+            android:gravity="center_horizontal"
+            android:text="@string/alarm_time"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_medium"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/create_sche_alarm_edit"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1.5dip"
+            android:layout_weight="2"
+            android:background="@drawable/date_pick_bg"
+            android:gravity="center_horizontal"
+            android:textColor="@color/blue_text"
+            android:textSize="@dimen/text_medium"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:layout_marginTop="15dip"
+        android:background="@color/light_grey_text" />
+
+    <EditText
+        android:id="@+id/create_sche_content_edit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="top"
+        android:hint="@string/schedule_content_hint"
+        android:minLines="5"
+        android:paddingBottom="5dip"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="5dip" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="@color/light_grey_text" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dip"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:gravity="left|center"
+            android:text="@string/is_alarm_on"
+            android:textColor="@color/calendar_text_active"
+            android:textSize="16.0sp"
+            android:textStyle="bold" />
+
+        <com.simu.superid.wiget.WiperSwitch
+            android:id="@+id/sche_alarm_on"
+            android:layout_width="70dip"
+            android:layout_height="28dip"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="2.0dip"
+            android:textOff=""
+            android:textOn="" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/creat_schedule"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16.0dip"
+        android:layout_marginRight="16.0dip"
+        android:layout_marginTop="20.0dip"
+        android:background="@drawable/btn_login_bg"
+        android:gravity="center"
+        android:text="@string/create_schedule"
+        android:textColor="@color/white"
+        android:textSize="16.0sp" />
+
+</LinearLayout>
