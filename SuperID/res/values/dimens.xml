@@ -9,5 +9,9 @@
     <dimen name="calendar_text_medium">18sp</dimen>
     <dimen name="calendar_text_small">14sp</dimen>
     <dimen name="text_medium">16sp</dimen>
+    <dimen name="dropdownitem_icon_width">32dip</dimen>
+    <dimen name="dropdownitem_text_padding_left">8dip</dimen>
+    <dimen name="dropdownitem_text_padding_right">8dip</dimen>
+    <dimen name="search_view_text_min_width">160dip</dimen>
 
 </resources>

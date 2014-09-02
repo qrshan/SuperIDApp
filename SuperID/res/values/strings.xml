@@ -43,5 +43,12 @@
     <string name="schedule_content_hint">请输入日程内容</string>
     <string name="create_schedule">创建日程</string>
     <string name="create_schedule_success">已创建一条日程</string>
+    <string name="searchview_description_query">请输入搜索的内容</string>
+    
+    <string name="home1">我的事务</string>
+    <string name="home2">我的盟</string>
+    <string name="home3">创建新事务</string>
+    <string name="home4">创建盟</string>
+    <string name="home5">常参与的事务</string>
 
 </resources>

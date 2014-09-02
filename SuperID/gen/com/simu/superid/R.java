@@ -148,6 +148,14 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
         public static final int activityChooserViewStyle=0x7f010046;
+        /** <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int backcolor=0x7f010078;
         /** <p>May be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
 <p>May be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
@@ -291,6 +299,14 @@ theme attribute (in the form
 containing a value of this type.
          */
         public static final int height=0x7f010004;
+        /** <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int home=0x7f01007b;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -648,6 +664,14 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
         public static final int subtitleTextStyle=0x7f010001;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int text=0x7f01007c;
         /**  Text color, typeface, size, and style for the text inside of a popup menu. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
@@ -712,6 +736,16 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 "<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
          */
         public static final int textColorSearchUrl=0x7f01002e;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int textSize=0x7f010079;
         /**  Specifies title text used for navigationMode="normal" 
          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
@@ -749,6 +783,14 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 </table>
          */
         public static final int touchModeBehind=0x7f010069;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int vertical=0x7f01007a;
         /**  Default vertical divider between menu items. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
@@ -863,14 +905,14 @@ containing a value of this type.
         public static final int abs__bright_foreground_disabled_holo_light=0x7f060005;
         public static final int abs__bright_foreground_holo_dark=0x7f060002;
         public static final int abs__bright_foreground_holo_light=0x7f060003;
-        public static final int abs__primary_text_disable_only_holo_dark=0x7f06002a;
-        public static final int abs__primary_text_disable_only_holo_light=0x7f06002b;
-        public static final int abs__primary_text_holo_dark=0x7f06002c;
-        public static final int abs__primary_text_holo_light=0x7f06002d;
+        public static final int abs__primary_text_disable_only_holo_dark=0x7f060030;
+        public static final int abs__primary_text_disable_only_holo_light=0x7f060031;
+        public static final int abs__primary_text_holo_dark=0x7f060032;
+        public static final int abs__primary_text_holo_light=0x7f060033;
         public static final int alarm_text_active=0x7f06001d;
         public static final int alarm_text_inactive=0x7f06001c;
         public static final int blue_text=0x7f06001b;
-        public static final int btn_text_selector=0x7f06002e;
+        public static final int btn_text_selector=0x7f060034;
         public static final int calendar_active_month_bg=0x7f06001e;
         public static final int calendar_bg=0x7f06001f;
         public static final int calendar_divider=0x7f060020;
@@ -882,14 +924,20 @@ containing a value of this type.
         public static final int calendar_text_inactive=0x7f060025;
         public static final int calendar_text_mark=0x7f060029;
         public static final int calendar_text_selected=0x7f060027;
-        public static final int calendar_text_selector=0x7f06002f;
+        public static final int calendar_text_selector=0x7f060035;
         public static final int calendar_text_unselectable=0x7f060028;
         public static final int dark_grey=0x7f06001a;
         public static final int dark_grey_text=0x7f060012;
         public static final int grey_text=0x7f060013;
+        public static final int home=0x7f06002f;
+        public static final int home1=0x7f06002a;
+        public static final int home2=0x7f06002b;
+        public static final int home3=0x7f06002c;
+        public static final int home4=0x7f06002d;
+        public static final int home5=0x7f06002e;
         public static final int light_grey=0x7f060019;
         public static final int light_grey_text=0x7f060011;
-        public static final int selector_text=0x7f060030;
+        public static final int selector_text=0x7f060036;
         public static final int settings_header_bg=0x7f060018;
         public static final int sidebar_item_background_activated_dark=0x7f060010;
         public static final int sidebar_item_background_activated_light=0x7f06000f;
@@ -1018,6 +1066,10 @@ containing a value of this type.
         public static final int calendar_month_topmargin=0x7f070012;
         public static final int calendar_text_medium=0x7f070014;
         public static final int calendar_text_small=0x7f070015;
+        public static final int dropdownitem_icon_width=0x7f070017;
+        public static final int dropdownitem_text_padding_left=0x7f070018;
+        public static final int dropdownitem_text_padding_right=0x7f070019;
+        public static final int search_view_text_min_width=0x7f07001a;
         public static final int text_medium=0x7f070016;
     }
     public static final class drawable {
@@ -1158,56 +1210,62 @@ containing a value of this type.
         public static final int edit_bg=0x7f020086;
         public static final int edit_bg_1=0x7f020087;
         public static final int header_container=0x7f020088;
-        public static final int home_offer_area=0x7f020089;
-        public static final int ic_check=0x7f02008a;
-        public static final int ic_launcher=0x7f02008b;
-        public static final int ic_settings=0x7f02008c;
-        public static final int ic_settings_white=0x7f02008d;
-        public static final int ic_uncheck=0x7f02008e;
-        public static final int icon_inform=0x7f02008f;
-        public static final int icon_my=0x7f020090;
-        public static final int icon_schedule=0x7f020091;
-        public static final int icon_service=0x7f020092;
-        public static final int input=0x7f020093;
-        public static final int input_field=0x7f020094;
-        public static final int input_field1=0x7f020095;
-        public static final int login_password=0x7f020096;
-        public static final int login_username=0x7f020097;
-        public static final int logo=0x7f020098;
-        public static final int logo64=0x7f020099;
-        public static final int m=0x7f02009a;
-        public static final int next_month=0x7f02009b;
-        public static final int option=0x7f02009c;
-        public static final int option_pressed=0x7f02009d;
-        public static final int portrait=0x7f02009e;
-        public static final int portrait_rec=0x7f02009f;
-        public static final int previous_month=0x7f0200a0;
-        public static final int pwd_mid=0x7f0200a1;
-        public static final int pwd_strong=0x7f0200a2;
-        public static final int pwd_weak=0x7f0200a3;
-        public static final int return_to_main=0x7f0200a4;
-        public static final int schedule_add=0x7f0200a5;
-        public static final int schedule_add_normal=0x7f0200a6;
-        public static final int schedule_add_pressed=0x7f0200a7;
-        public static final int schedule_edit=0x7f0200a8;
-        public static final int schedule_edit_normal=0x7f0200a9;
-        public static final int schedule_edit_pressed=0x7f0200aa;
-        public static final int sidebar_item_background_dark_selector=0x7f0200ab;
-        public static final int sidebar_item_selected_layerlist_dark=0x7f0200ac;
-        public static final int sidebar_row_dark=0x7f0200ad;
-        public static final int slidingmenu_bg=0x7f0200ae;
-        public static final int slidingmenu_item_bg=0x7f0200af;
-        public static final int slidingmenu_item_normal=0x7f0200b0;
-        public static final int slidingmenu_item_pressed=0x7f0200b1;
-        public static final int slidingmenu_shadow=0x7f0200b2;
-        public static final int switch_off_btn=0x7f0200b3;
-        public static final int switch_on_btn=0x7f0200b4;
-        public static final int switch_white_btn=0x7f0200b5;
-        public static final int toggle_off=0x7f0200b6;
-        public static final int toggle_off_pressed=0x7f0200b7;
-        public static final int toggle_on=0x7f0200b8;
-        public static final int toggle_on_pressed=0x7f0200b9;
-        public static final int toggle_switch=0x7f0200ba;
+        public static final int home1=0x7f020089;
+        public static final int home2=0x7f02008a;
+        public static final int home3=0x7f02008b;
+        public static final int home4=0x7f02008c;
+        public static final int home5=0x7f02008d;
+        public static final int home_offer_area=0x7f02008e;
+        public static final int ic_check=0x7f02008f;
+        public static final int ic_launcher=0x7f020090;
+        public static final int ic_settings=0x7f020091;
+        public static final int ic_settings_white=0x7f020092;
+        public static final int ic_uncheck=0x7f020093;
+        public static final int icon_inform=0x7f020094;
+        public static final int icon_my=0x7f020095;
+        public static final int icon_schedule=0x7f020096;
+        public static final int icon_service=0x7f020097;
+        public static final int input=0x7f020098;
+        public static final int input_field=0x7f020099;
+        public static final int input_field1=0x7f02009a;
+        public static final int login_password=0x7f02009b;
+        public static final int login_username=0x7f02009c;
+        public static final int logo=0x7f02009d;
+        public static final int logo64=0x7f02009e;
+        public static final int m=0x7f02009f;
+        public static final int next_month=0x7f0200a0;
+        public static final int option=0x7f0200a1;
+        public static final int option_pressed=0x7f0200a2;
+        public static final int portrait=0x7f0200a3;
+        public static final int portrait_rec=0x7f0200a4;
+        public static final int previous_month=0x7f0200a5;
+        public static final int pwd_mid=0x7f0200a6;
+        public static final int pwd_strong=0x7f0200a7;
+        public static final int pwd_weak=0x7f0200a8;
+        public static final int return_to_main=0x7f0200a9;
+        public static final int schedule_add=0x7f0200aa;
+        public static final int schedule_add_normal=0x7f0200ab;
+        public static final int schedule_add_pressed=0x7f0200ac;
+        public static final int schedule_edit=0x7f0200ad;
+        public static final int schedule_edit_normal=0x7f0200ae;
+        public static final int schedule_edit_pressed=0x7f0200af;
+        public static final int search_icon=0x7f0200b0;
+        public static final int sidebar_item_background_dark_selector=0x7f0200b1;
+        public static final int sidebar_item_selected_layerlist_dark=0x7f0200b2;
+        public static final int sidebar_row_dark=0x7f0200b3;
+        public static final int slidingmenu_bg=0x7f0200b4;
+        public static final int slidingmenu_item_bg=0x7f0200b5;
+        public static final int slidingmenu_item_normal=0x7f0200b6;
+        public static final int slidingmenu_item_pressed=0x7f0200b7;
+        public static final int slidingmenu_shadow=0x7f0200b8;
+        public static final int switch_off_btn=0x7f0200b9;
+        public static final int switch_on_btn=0x7f0200ba;
+        public static final int switch_white_btn=0x7f0200bb;
+        public static final int toggle_off=0x7f0200bc;
+        public static final int toggle_off_pressed=0x7f0200bd;
+        public static final int toggle_on=0x7f0200be;
+        public static final int toggle_on_pressed=0x7f0200bf;
+        public static final int toggle_switch=0x7f0200c0;
     }
     public static final class id {
         public static final int abs__action_bar=0x7f040026;
@@ -1249,17 +1307,17 @@ containing a value of this type.
         public static final int abs__textButton=0x7f040019;
         public static final int abs__title=0x7f040021;
         public static final int abs__up=0x7f04000b;
-        public static final int action_help=0x7f04006d;
-        public static final int action_search=0x7f04006b;
-        public static final int action_settings=0x7f04006c;
+        public static final int action_help=0x7f040070;
+        public static final int action_search=0x7f04006e;
+        public static final int action_settings=0x7f04006f;
         public static final int btn_login=0x7f040043;
-        public static final int btn_next_month=0x7f040064;
-        public static final int btn_pre_month=0x7f040063;
-        public static final int calendar=0x7f040058;
-        public static final int calendar_grid=0x7f040065;
-        public static final int choose_country=0x7f040047;
-        public static final int country_code=0x7f040048;
-        public static final int country_name=0x7f040049;
+        public static final int btn_next_month=0x7f040067;
+        public static final int btn_pre_month=0x7f040066;
+        public static final int calendar=0x7f04005b;
+        public static final int calendar_grid=0x7f040068;
+        public static final int choose_country=0x7f04004a;
+        public static final int country_code=0x7f04004b;
+        public static final int country_name=0x7f04004c;
         public static final int creat_schedule=0x7f04003d;
         public static final int create_sche_alarm_edit=0x7f04003a;
         public static final int create_sche_content_edit=0x7f04003b;
@@ -1267,55 +1325,59 @@ containing a value of this type.
         public static final int create_sche_time_edit=0x7f040039;
         public static final int disableHome=0x7f040009;
         public static final int edit_query=0x7f04002c;
-        public static final int firstname_correct=0x7f040052;
+        public static final int firstname_correct=0x7f040055;
         public static final int forget_password=0x7f040044;
         public static final int fullscreen=0x7f040013;
         public static final int homeAsUp=0x7f040006;
-        public static final int lastname_correct=0x7f040050;
+        public static final int lastname_correct=0x7f040053;
         public static final int left=0x7f040010;
-        public static final int left_column=0x7f040046;
         public static final int listMode=0x7f040002;
         public static final int login_password_icon=0x7f040041;
         public static final int login_portrait=0x7f04003e;
         public static final int login_username_icon=0x7f04003f;
+        public static final int main_credit_score=0x7f040049;
+        public static final int main_personal_name=0x7f040048;
+        public static final int main_portrait=0x7f040047;
         public static final int margin=0x7f040012;
-        public static final int menu_frame=0x7f040061;
+        public static final int menu_action_search=0x7f040071;
+        public static final int menu_frame=0x7f040064;
         public static final int none=0x7f040014;
         public static final int normal=0x7f040001;
-        public static final int reg_first_name=0x7f040053;
-        public static final int reg_last_name=0x7f040051;
-        public static final int reg_password=0x7f04004d;
-        public static final int reg_password_correct=0x7f04004e;
-        public static final int reg_password_repeat=0x7f04004f;
-        public static final int reg_password_strength=0x7f04004c;
-        public static final int reg_telephone=0x7f040055;
-        public static final int reg_to_confirm=0x7f040056;
-        public static final int reg_username=0x7f04004b;
-        public static final int reg_username_used=0x7f04004a;
+        public static final int personal_area=0x7f040046;
+        public static final int reg_first_name=0x7f040056;
+        public static final int reg_last_name=0x7f040054;
+        public static final int reg_password=0x7f040050;
+        public static final int reg_password_correct=0x7f040051;
+        public static final int reg_password_repeat=0x7f040052;
+        public static final int reg_password_strength=0x7f04004f;
+        public static final int reg_telephone=0x7f040058;
+        public static final int reg_to_confirm=0x7f040059;
+        public static final int reg_username=0x7f04004e;
+        public static final int reg_username_used=0x7f04004d;
         public static final int register=0x7f040045;
         public static final int right=0x7f040011;
         public static final int sche_alarm_on=0x7f04003c;
-        public static final int schedule_add=0x7f04005b;
-        public static final int schedule_date=0x7f040059;
-        public static final int schedule_edit=0x7f04005a;
-        public static final int schedule_item_action_time=0x7f040066;
-        public static final int schedule_item_alarm_icon=0x7f040068;
-        public static final int schedule_item_alarm_time=0x7f040069;
-        public static final int schedule_item_content=0x7f040067;
-        public static final int schedule_list=0x7f04005c;
-        public static final int schedule_sv=0x7f040057;
+        public static final int schedule_add=0x7f04005e;
+        public static final int schedule_date=0x7f04005c;
+        public static final int schedule_edit=0x7f04005d;
+        public static final int schedule_item_action_time=0x7f040069;
+        public static final int schedule_item_alarm_icon=0x7f04006b;
+        public static final int schedule_item_alarm_time=0x7f04006c;
+        public static final int schedule_item_content=0x7f04006a;
+        public static final int schedule_list=0x7f04005f;
+        public static final int schedule_sv=0x7f04005a;
         public static final int selected_view=0x7f040015;
-        public static final int settings_wrapper=0x7f04005d;
+        public static final int settings_wrapper=0x7f040060;
         public static final int showCustom=0x7f040008;
         public static final int showHome=0x7f040005;
         public static final int showTitle=0x7f040007;
-        public static final int slidingmenumain=0x7f04006a;
+        public static final int slidingmenumain=0x7f04006d;
         public static final int tabMode=0x7f040003;
-        public static final int telephone_correct=0x7f040054;
-        public static final int title=0x7f040062;
-        public static final int toggle_keep_logged_in=0x7f040060;
-        public static final int txt_keep_logged_in=0x7f04005f;
-        public static final int txt_login=0x7f04005e;
+        public static final int telephone_correct=0x7f040057;
+        public static final int title=0x7f040065;
+        public static final int toggle_keep_logged_in=0x7f040063;
+        public static final int txt_keep_logged_in=0x7f040062;
+        public static final int txt_login=0x7f040061;
         public static final int txt_password=0x7f040042;
         public static final int txt_username=0x7f040040;
         public static final int useLogo=0x7f040004;
@@ -1360,10 +1422,11 @@ containing a value of this type.
         public static final int month=0x7f030020;
         public static final int month_inner=0x7f030021;
         public static final int schedule_item=0x7f030022;
-        public static final int sherlock_spinner_dropdown_item=0x7f030023;
-        public static final int sherlock_spinner_item=0x7f030024;
-        public static final int slidingmenumain=0x7f030025;
-        public static final int week=0x7f030026;
+        public static final int search_action_bar=0x7f030023;
+        public static final int sherlock_spinner_dropdown_item=0x7f030024;
+        public static final int sherlock_spinner_item=0x7f030025;
+        public static final int slidingmenumain=0x7f030026;
+        public static final int week=0x7f030027;
     }
     public static final class menu {
         public static final int create_schedule=0x7f0b0000;
@@ -1434,6 +1497,11 @@ containing a value of this type.
         public static final int first_name=0x7f090026;
         public static final int forget_password=0x7f09001a;
         public static final int hello_world=0x7f09000e;
+        public static final int home1=0x7f090038;
+        public static final int home2=0x7f090039;
+        public static final int home3=0x7f09003a;
+        public static final int home4=0x7f09003b;
+        public static final int home5=0x7f09003c;
         public static final int invalid_date=0x7f09002b;
         public static final int is_alarm_on=0x7f090033;
         public static final int last_name=0x7f090025;
@@ -1446,6 +1514,7 @@ containing a value of this type.
         public static final int repeat_password=0x7f090023;
         public static final int schedule=0x7f09002e;
         public static final int schedule_content_hint=0x7f090034;
+        public static final int searchview_description_query=0x7f090037;
         public static final int settings_header_login=0x7f090014;
         public static final int settings_keep_logged_in=0x7f090016;
         public static final int telephone=0x7f090027;
@@ -1597,6 +1666,100 @@ containing a value of this type.
         public static final int Widget_Styled_ActionBar_Main=0x7f0a005f;
     }
     public static final class styleable {
+        /** Attributes that can be used with a HomeButton.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #HomeButton_backcolor com.simu.superid:backcolor}</code></td><td></td></tr>
+           <tr><td><code>{@link #HomeButton_home com.simu.superid:home}</code></td><td></td></tr>
+           <tr><td><code>{@link #HomeButton_text com.simu.superid:text}</code></td><td></td></tr>
+           <tr><td><code>{@link #HomeButton_textSize com.simu.superid:textSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #HomeButton_vertical com.simu.superid:vertical}</code></td><td></td></tr>
+           </table>
+           @see #HomeButton_backcolor
+           @see #HomeButton_home
+           @see #HomeButton_text
+           @see #HomeButton_textSize
+           @see #HomeButton_vertical
+         */
+        public static final int[] HomeButton = {
+            0x7f010078, 0x7f010079, 0x7f01007a, 0x7f01007b,
+            0x7f01007c
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.simu.superid.R.attr#backcolor}
+          attribute's value can be found in the {@link #HomeButton} array.
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.simu.superid:backcolor
+        */
+        public static final int HomeButton_backcolor = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.simu.superid.R.attr#home}
+          attribute's value can be found in the {@link #HomeButton} array.
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.simu.superid:home
+        */
+        public static final int HomeButton_home = 3;
+        /**
+          <p>This symbol is the offset where the {@link com.simu.superid.R.attr#text}
+          attribute's value can be found in the {@link #HomeButton} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.simu.superid:text
+        */
+        public static final int HomeButton_text = 4;
+        /**
+          <p>This symbol is the offset where the {@link com.simu.superid.R.attr#textSize}
+          attribute's value can be found in the {@link #HomeButton} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.simu.superid:textSize
+        */
+        public static final int HomeButton_textSize = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.simu.superid.R.attr#vertical}
+          attribute's value can be found in the {@link #HomeButton} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.simu.superid:vertical
+        */
+        public static final int HomeButton_vertical = 2;
         /**  Attributes used to style the Action Bar. 
            <p>Includes the following attributes:</p>
            <table>

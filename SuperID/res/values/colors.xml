@@ -38,5 +38,12 @@
     <color name="calendar_text_selected">#ffffffff</color>
     <color name="calendar_text_unselectable">#7f778088</color>
     <color name="calendar_text_mark">#ff0086db</color>
+    
+    <color name="home1">#2AAEEE</color>
+    <color name="home2">#ED664F</color>
+    <color name="home3">#54B157</color>
+    <color name="home4">#F6C622</color>
+    <color name="home5">#eeeeef</color>
+    <color name="home">#eeeeef</color>
 
 </resources>

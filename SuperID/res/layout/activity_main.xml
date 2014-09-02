@@ -1,28 +1,145 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ptr="http://schemas.android.com/apk/res/com.simu.superid"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:background="@color/white"
     tools:context="com.simu.superid.MainActivity" >
 
-    <ImageView
+    <LinearLayout
+        android:id="@+id/personal_area"
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:contentDescription=""
-        android:scaleType="fitXY"
-        android:src="@drawable/bg" />
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/home"
+            android:orientation="horizontal" >
+
+            <com.simu.superid.wiget.RoundImageView
+                android:id="@+id/main_portrait"
+                android:layout_width="60dip"
+                android:layout_height="60dip"
+                android:layout_margin="10dip"
+                android:scaleType="fitXY"
+                android:src="@drawable/portrait_rec" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="vertical"
+                android:paddingLeft="10dip" >
+
+                <TextView
+                    android:id="@+id/main_personal_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="何良瑞"
+                    android:textColor="@color/dark_grey_text"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/main_credit_score"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="信誉积分：8975"
+                    android:textColor="@color/dark_grey_text"
+                    android:textSize="16sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/personal_area"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <com.simu.superid.wiget.HomeButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dip"
+                ptr:backcolor="0"
+                ptr:home="0"
+                ptr:text="@string/home1"
+                ptr:textSize="24sp"
+                ptr:vertical="true" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dip"
+                android:orientation="vertical" >
+
+                <com.simu.superid.wiget.HomeButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    ptr:backcolor="1"
+                    ptr:home="1"
+                    ptr:text="@string/home2"
+                    ptr:textSize="24sp"
+                    ptr:vertical="false" >
+                </com.simu.superid.wiget.HomeButton>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dip"
+                    android:orientation="horizontal" >
+
+                    <com.simu.superid.wiget.HomeButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        ptr:backcolor="2"
+                        ptr:home="2"
+                        ptr:text="@string/home3"
+                        ptr:textSize="24sp"
+                        ptr:vertical="false" />
+
+                    <com.simu.superid.wiget.HomeButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2dip"
+                        ptr:backcolor="3"
+                        ptr:home="3"
+                        ptr:text="@string/home4"
+                        ptr:textSize="24sp"
+                        ptr:vertical="false" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <com.simu.superid.wiget.HomeButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dip"
+            android:layout_marginLeft="5dip"
+            ptr:backcolor="4"
+            ptr:home="4"
+            ptr:text="@string/home5"
+            ptr:textSize="24sp"
+            ptr:vertical="false" />
+    </LinearLayout>
+<!-- 
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="30.0dip"
         android:orientation="horizontal" >
 
         <LinearLayout
             android:id="@+id/left_column"
             android:layout_width="0dip"
             android:layout_height="wrap_content"
-            android:layout_gravity="bottom"
-            android:layout_marginBottom="30.0dip"
             android:layout_weight="2"
             android:background="@drawable/home_offer_area"
             android:orientation="vertical"
@@ -51,10 +168,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:paddingRight="12.0dip"
-                android:paddingLeft="8.0dip"
                 android:layout_marginBottom="15dip"
                 android:layout_marginTop="15dip"
+                android:paddingLeft="8.0dip"
+                android:paddingRight="12.0dip"
                 android:text="@string/ad_enter"
                 android:textColor="@color/white"
                 android:textSize="16sp" />
@@ -62,9 +179,9 @@
 
         <LinearLayout
             android:layout_width="0dip"
-            android:layout_height="fill_parent"
+            android:layout_height="match_parent"
             android:layout_weight="1" >
         </LinearLayout>
     </LinearLayout>
-
+ -->
 </RelativeLayout>
